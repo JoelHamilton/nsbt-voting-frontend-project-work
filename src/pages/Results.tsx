@@ -1,10 +1,9 @@
-
 import NavigationBar from "@/components/NavigationBar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Progress } from "@/components/ui/progress";
-import { Trophy, Users, Calendar } from "lucide-react";
+import { Trophy, Users, Calendar, BarChart3 } from "lucide-react";
 
 // Mock results data
 const electionResults = [

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import NavigationBar from "@/components/NavigationBar";
@@ -10,8 +9,21 @@ import { ArrowLeft, Calendar, Users, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 // Mock data for election details
-const electionData = {
-  1: {
+const electionData: Record<string, {
+  title: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  totalVoters: number;
+  candidates: Array<{
+    id: number;
+    name: string;
+    image: string;
+    manifesto: string;
+    experience: string;
+  }>;
+}> = {
+  "1": {
     title: "Student Union President 2024",
     description: "Vote for the next Student Union President who will represent student interests and lead campus initiatives.",
     startDate: "2024-01-15",
@@ -50,7 +62,7 @@ const VoteDetails = () => {
   const [hasVoted, setHasVoted] = useState(false);
   const [isVoting, setIsVoting] = useState(false);
 
-  const election = electionData[electionId as keyof typeof electionData];
+  const election = electionId ? electionData[electionId] : undefined;
 
   if (!election) {
     return (
