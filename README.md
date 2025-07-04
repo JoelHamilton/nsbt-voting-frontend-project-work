@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Nduom University Voting Platform
 
-## Project info
+A secure and transparent blockchain-based voting platform for university elections, developed for **Nduom University of Business and Technology**.
 
-**URL**: https://lovable.dev/projects/1ff6861d-60ba-483d-ad00-ebe6d3048350
+This application allows students to register, vote in elections, and view real-time results. Admins can create and manage elections, add candidates, and monitor results through a secure admin panel.
 
-## How can I edit this code?
+## 🔑 Key Features
 
-There are several ways of editing your application.
+### 🔷 General
+- Responsive, mobile-first UI with blue accent theme
+- Built with **React + Vite** for fast development and hot reloading
 
-**Use Lovable**
+### 🧑‍🎓 Student Flow
+- **Register** with full name and email or student ID
+- **Login** securely
+- **View active elections** and cast one vote per election
+- **View real-time results** once voting ends
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1ff6861d-60ba-483d-ad00-ebe6d3048350) and start prompting.
+### 🛠️ Admin Flow
+- **Admin login** with email/password
+- **Create and manage elections**
+- **Add candidates** to elections with names, photos, and manifestos
+- **Pre-approve and manage voter list** (optional)
+- **Close elections** and **view detailed statistics**
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📊 Results & Transparency
+- Real-time vote count updates using charts and visual elements
+- Votes stored and verified via blockchain integration (coming soon / integrated)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v18+ recommended)
+- npm or yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔧 Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+git clone https://github.com/ChurchillV/nduom-university-voting-platform.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+cd nduom-university-voting-platform
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+npm install
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1ff6861d-60ba-483d-ad00-ebe6d3048350) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
