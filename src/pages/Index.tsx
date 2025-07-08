@@ -12,7 +12,7 @@ const Index = () => {
         <div className="text-center mb-12 animate-fade-in">
           <div className="mb-8">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-              <span className="text-primary">Nduom University</span>
+              <span className="text-primary">Nduom School</span>
               <br />
               <span className="text-2xl md:text-4xl font-medium">of Business and Technology</span>
             </h1>
@@ -85,7 +85,7 @@ const Index = () => {
 
         {/* Footer */}
         <div className="text-center mt-16 text-gray-500">
-          <p>&copy; 2024 Nduom University of Business and Technology. All rights reserved.</p>
+          <p>&copy; 2026 Nduom University of Business and Technology. All rights reserved.</p>
         </div>
       </div>
     </div>
